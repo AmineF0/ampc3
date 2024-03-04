@@ -1,0 +1,25 @@
+# Buvette
+
+YounessGPT is frequent customer of the restaurant "l'buvette" in ENSAM (don't ask me how or why). 
+He noticed a huge amount of purchases being made, so he got curious how much "l'buvette" gains each day.
+
+He asked the responsible of l'buvette to give him the whole menu, and the purchases made in a day.
+The owner gave him the items sold and their prize, as well as factures that document purchases made.
+YounessGPT compiled all this purchases in a single list, but since the AI is not smart enough yet, 
+he didn't understand that he can sum all the quantity purchased of the items. so he ended up having
+multiple occurences of the same item each with a quantity that corresponds to each facture.
+
+YounessGPT asked for your help to calculate the gains of l'buvette so that he can learn from them.
+
+\input
+The test input will contain a number t (1 <= t <= 1e2) , the number of test cases.
+Then the first line for each test case contains n (1 <= n <= 1e4) the number of items of the menu and m  (1 <= m <= 1e4) the purchases made in the day.
+
+Followed by n lines, each line contains a string : the name of the item, and p (1 <= p <= 1e4) the price.
+
+Followed by m lines, each line contains a string : the name of the iteù and q (1 <= q <= 1e4) the quantity of the item purchased
+
+It must be noted that the length of the item's string name does not exceed 10.
+
+\output
+for each test case output a number in a line the amount of gains the restaurant made.

@@ -1,3 +1,15 @@
-# Regression linear
+# Regression
 
-given an x return the y after doing linear regression
+YounessGPT is a new born AI. he heard about the school ENSAM and got invested.
+he wanted to learn the ways of Arts&Metiers and master the engineering tools and problem solving.
+So in the problemset he will try to understand lot of problems and will need your help to give him the right answers to learn from them.
+
+Since it is a new AI, he still need to learn the basic stuff. He found a picture with some numbers and asked your for your help to decipher it.
+
+
+\input
+the input consists of 3 lines.
+The first 2 lines contains 2 numbers x and y.
+The 3rd line contains a signle number x.
+
+\output

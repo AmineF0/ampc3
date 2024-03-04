@@ -5,15 +5,17 @@ context :
 
 n 	diff	des
 
-A 1 	7	dp : decoupages des toles pour une demande client
 B 1 	5	bit manip : message auto correction ( like hamming code )
 C 1 	6	Seg/set : unique filiers in a subset of student
 D 1 	8	graph flow : min grps affect des sous groupes des TP
+
+I 1		10	
+
+A 1 	7	dp : decoupages des toles pour une demande client
 E 1		2/3	regression linear
 F 1		3/4	systeme de pointage
 G 1		5	dfs datashow installation
 H 1		2	gestion de buvette orders
-I 1		10	
 
 
 => 8
