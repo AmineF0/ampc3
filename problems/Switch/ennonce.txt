@@ -1,3 +1,26 @@
-# Regression linear
+# -im access to all the datashows, so that he can attend all classes.
 
-given an x return the y after doing linear regression
+To do that they need to connect the YounessGPT server with all the datashows using wires. The problem faced is that the GPT server
+two outputs ports, and the number of datashows is big. The technical team in ENSAM got their hands on a very special Switch that play the role of a diffuser.
+But this switcher has one flaw, it only has one input and 2 outputs, so we will have to use more than one switch. One can determine the optimal number of switchers
+to connect the AI with datashows, but that's a problem for the technical team.
+
+After they solved the issue and connected the system, they had one issue, the AI was not connected to all the datashows.
+So they needed your help to determine which switch is damaged. To do that they gave you the schema used in the configuretion.
+
+It is guaranteed that only one component (either the AI or the switches) is broken, the datashows work fine. 
+The AI is the root of the system, it can be faulty too, if the AI is faulty , you should print : "AGI is a myth"
+
+\input 
+The first line contains a 3 numbers, n, m, k.
+n: the number of the datashows, in the rest of the problemthe datashows will be indexed from 0 to n-1
+m: the number of switches, in the rest of the problem they will be indexed from 0 to m-1
+k: the number of connections in the system.
+
+Followed by k lines, each line contains a letter li, a number ui, a letter lj, a number uk. The letter indicated the type of the componenet:
+it can be A: the AI, S: a switch, D: a datashow. it means that the component indexed ui of the type li is connected as an input to the indexed uj component of type lj.
+
+The last line contains a list of datashows that are not accessible.
+
+\output
+if the AI is faulty print "AGI is myth". if the problem is in the switch, output its index in its category.

@@ -13,3 +13,4 @@ The first 2 lines contains 2 numbers x and y.
 The 3rd line contains a signle number x.
 
 \output
+You are tasked to figure out what the ouptut but it is a single real number.

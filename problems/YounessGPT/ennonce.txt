@@ -1,0 +1,26 @@
+# YounessGPT
+
+GPT learns through text completion by pre-training on vast amounts of text data. 
+During pre-training, the model is exposed to sequences of text and is trained to predict the next word or sequence of words given the preceding context. 
+This process is often referred to as autoregressive language modeling.
+
+By repeatedly exposing the model to text completion tasks, it learns to understand and generate coherent and contextually appropriate text. 
+This allows GPT to exhibit human-like language understanding and generation capabilities across a wide range of tasks and domains.
+
+Thus a new AI called YounessGPT is being created. Your task in this problem is to mimic in someway the result of the YounessGPT.
+
+The AI gets a series of input as words, that are being used to learn. In the learning phase the AI remembers all of them.
+
+In the exploitation phase, the AI is given q queries. It is given the start of the word and the AI is supposed to complete it from the words it learned.
+
+YounessGPT tries to predict correctly the word given from the prefix, so it completes the prefix with the most frequent word in the data used for learning. in case of a tie , it output the smallest one lexicographically.
+
+\input
+the first line contains t the number of test classes
+The first line in the test case contains a single number n , the number of words,
+followed by n lines , each line contain a word that was given to YounessGPT to train.
+The following line contains a letter q, the number of queries.
+Followed by q lines each contains a prefix that the AI will complete.
+
+\output
+for each query output the output of YounessGPT

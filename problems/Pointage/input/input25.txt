@@ -1,3 +1,50 @@
-576.04 -737.37
-857.62 -35.46
--922.71
+13
+tcsahaif vsquvedu
+kkyjloyy lbhreera
+rjirrhmt anyqzkoa
+ogzqkpso nsgmcwac
+sglzwcnm sziownrl
+jyoykagt crbfwcgd
+tpwhewiz nnyjiyyu
+yswypwlt oyywzltn
+oqogiqnz bdiawlzf
+wnltdqiy pgrgbphc
+fuanyuvf yhndwelq
+rxwvqwcy kfiunnnq
+oqnsaxum xmdjrgow
+35
+3 jyoykagt jyoykagt wnltdqiy
+4 wnltdqiy kkyjloyy tcsahaif kkyjloyy
+6 tpwhewiz sglzwcnm rjirrhmt ogzqkpso jyoykagt oqogiqnz
+8 rxwvqwcy yswypwlt ogzqkpso kkyjloyy rxwvqwcy jyoykagt yswypwlt jyoykagt
+3 tcsahaif tcsahaif fuanyuvf
+6 tpwhewiz tcsahaif jyoykagt tpwhewiz rjirrhmt rxwvqwcy
+12 yswypwlt tcsahaif oqnsaxum oqnsaxum sglzwcnm sglzwcnm oqogiqnz jyoykagt ogzqkpso ogzqkpso tpwhewiz tpwhewiz
+1 kkyjloyy
+10 tcsahaif fuanyuvf yswypwlt rjirrhmt jyoykagt wnltdqiy yswypwlt jyoykagt oqogiqnz rjirrhmt
+12 tpwhewiz rjirrhmt wnltdqiy tpwhewiz oqnsaxum oqnsaxum rxwvqwcy kkyjloyy oqogiqnz tpwhewiz kkyjloyy fuanyuvf
+6 jyoykagt jyoykagt wnltdqiy rjirrhmt oqnsaxum sglzwcnm
+7 oqogiqnz fuanyuvf jyoykagt oqnsaxum ogzqkpso rjirrhmt jyoykagt
+13 ogzqkpso rjirrhmt yswypwlt oqnsaxum wnltdqiy rjirrhmt sglzwcnm jyoykagt rxwvqwcy tcsahaif wnltdqiy wnltdqiy rjirrhmt
+2 ogzqkpso tcsahaif
+6 sglzwcnm rjirrhmt sglzwcnm tpwhewiz tcsahaif oqnsaxum
+6 yswypwlt tpwhewiz fuanyuvf kkyjloyy yswypwlt wnltdqiy
+4 oqnsaxum tcsahaif sglzwcnm oqogiqnz
+8 tpwhewiz fuanyuvf yswypwlt wnltdqiy jyoykagt kkyjloyy ogzqkpso kkyjloyy
+13 oqnsaxum sglzwcnm oqnsaxum jyoykagt rxwvqwcy rjirrhmt yswypwlt jyoykagt tpwhewiz oqogiqnz tcsahaif ogzqkpso fuanyuvf
+0 
+7 wnltdqiy rxwvqwcy ogzqkpso kkyjloyy rjirrhmt sglzwcnm rjirrhmt
+11 sglzwcnm kkyjloyy oqogiqnz jyoykagt rxwvqwcy fuanyuvf rjirrhmt wnltdqiy ogzqkpso ogzqkpso oqogiqnz
+1 rxwvqwcy
+11 oqnsaxum jyoykagt jyoykagt jyoykagt rxwvqwcy yswypwlt kkyjloyy wnltdqiy ogzqkpso yswypwlt kkyjloyy
+9 ogzqkpso rjirrhmt rjirrhmt jyoykagt rjirrhmt rjirrhmt oqogiqnz jyoykagt ogzqkpso
+6 rxwvqwcy rjirrhmt tpwhewiz rxwvqwcy rxwvqwcy yswypwlt
+11 ogzqkpso rxwvqwcy jyoykagt kkyjloyy fuanyuvf wnltdqiy oqnsaxum tcsahaif yswypwlt kkyjloyy oqogiqnz
+7 tcsahaif ogzqkpso jyoykagt kkyjloyy tpwhewiz wnltdqiy wnltdqiy
+8 yswypwlt tcsahaif jyoykagt kkyjloyy tcsahaif kkyjloyy tcsahaif rxwvqwcy
+4 rjirrhmt oqogiqnz rxwvqwcy kkyjloyy
+12 oqnsaxum wnltdqiy rxwvqwcy yswypwlt kkyjloyy oqnsaxum ogzqkpso fuanyuvf kkyjloyy sglzwcnm yswypwlt jyoykagt
+5 tcsahaif oqogiqnz ogzqkpso ogzqkpso oqnsaxum
+2 sglzwcnm yswypwlt
+4 tcsahaif oqnsaxum oqnsaxum oqnsaxum
+5 sglzwcnm kkyjloyy wnltdqiy kkyjloyy yswypwlt
