@@ -26,8 +26,9 @@ session 3 : 0 students
 YounessGPT asked for your help to know the students that attended the most sessions. in case of a tie, print all of them one by line in an increasing order.
 
 \input
-the first line contains n : the number of students, and m : the number of sessions.
+the first line contains n : the number of students.
 For the following n lines, u will get Code(i) and Name(i), the code and name for the person i.
+Then u will get a number m : the number of sessions.
 Followed by m lines, each line starts with the a number of students, followed by a unique codes of students that attended.
 
 \ouptut
