@@ -1,0 +1,24 @@
+3
+2
+mssmna 3
+marakchya 5
+3
+marakchya 2
+mssmna 2
+marakchya 1
+3
+oreo 3.5
+connexion 20
+danao 3
+water 2
+5
+orea 2
+danao 1
+water 2
+water 1
+orea 1
+1
+cafe 3
+2
+cafe 1
+cafe 2
