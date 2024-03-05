@@ -3,6 +3,8 @@ using namespace std;
 typedef long long ll;
 
 int main(){
+    int t ; cin >> t;
+    while(t--){
     ll m,n;cin>>n>>m;
     vector<pair<string,double>> items;
     for(int i=0;i<n;i++){
@@ -18,5 +20,5 @@ int main(){
             }
         }
     }
-    cout<<total<<endl;
+    cout<<total<<endl;}
 }

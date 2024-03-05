@@ -3,7 +3,7 @@ using namespace std;
 
 void solve()
 {
-  map<string, long long> mp;
+  map<string, double> mp;
 
   long long n;
   cin >> n;
@@ -14,12 +14,12 @@ void solve()
   {
     string s;
     cin >> s;
-    long long x;
+    double x;
     cin >> x;
     mp[s] = x;
   }
 
-  long long sum = 0;
+  double sum = 0;
 
   for (long long i = 0; i < m; i++)
   {
