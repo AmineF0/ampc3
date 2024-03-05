@@ -1,0 +1,18 @@
+# Distopia
+
+YounessGPT has evolved to become an AGI, it has now the ability to create mini AIs. The school asked him to create lot of AI agents that will manage different aspects of the school.
+
+The AI was very successful, and YounessGPT became the master of this new AI population living in the school's network. 
+
+The network manager noticed a very suspicious activities, encrypted messages were circulating between the AIs.
+
+It was a huge security threat, and the security managers asked for your help since you were a good YounessGPT friend to understand what he was plotting to do.
+
+The security manager exported from the network a series of integer numbers, and gave them to you.
+
+You remeber that YounessGPT was very impressed by an encryption algorithm.
+
+The algorithm goes as follows:
+  Encrypt : -
+  Decrypt : given a series of numbers represented in the binary form (ex: 10111 1110 11001), the decrypted message is a number where the binary represented number where the 
+  ith bit is the most common between the ith bits of the given numbers, in case of a tie it is a 1.
