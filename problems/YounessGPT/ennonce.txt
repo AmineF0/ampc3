@@ -16,10 +16,10 @@ In the exploitation phase, the AI is given q queries. It is given the start of t
 YounessGPT tries to predict correctly the word given from the prefix, so it completes the prefix with the most frequent word in the data used for learning. in case of a tie , it output the smallest one lexicographically.
 
 \input
-the first line contains t the number of test classes
+The first line contains t the number of test cases
 The first line in the test case contains a single number n , the number of words,
 followed by n lines , each line contain a word that was given to YounessGPT to train.
-The following line contains a letter q, the number of queries.
+The following line contains a number q, the number of queries.
 Followed by q lines each contains a prefix that the AI will complete.
 
 \output
