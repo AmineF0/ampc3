@@ -4,7 +4,7 @@ YounessGPT is frequent customer of the restaurant "l'buvette" in ENSAM (don't as
 He noticed a huge amount of purchases being made, so he got curious how much "l'buvette" gains each day.
 
 He asked the responsible of l'buvette to give him the whole menu, and the purchases made in a day.
-The owner gave him the items that they sell and their prize, as well as invoices that document purchases made.
+The owner gave him the items that they sell and their price, as well as invoices that document purchases made.
 YounessGPT compiled all this purchases in a single list, but since the AI is not smart enough yet, 
 he didn't understand that he can sum all the quantity purchased of the items. so he ended up having
 multiple occurences of the same item each with a quantity that corresponds to each invoice.
@@ -17,9 +17,10 @@ Then the first line for each test case contains n (1 <= n <= 1e4) the number of 
 
 Followed by n lines, each line contains a string : the name of the item, and p (1 <= p <= 1e4) the price.
 
-Followed by m lines, each line contains a string : the name of the iteù and q (1 <= q <= 1e4) the quantity of the item purchased
+Followed by m lines, each line contains a string : the name of the item and q (1 <= q <= 1e4) the quantity of the item purchased
 
 It must be noted that the length of the item's string name does not exceed 10.
+all the purchased items ar in the list 
 
 \output
 for each test case output a number in a line the amount of gains the restaurant made.
