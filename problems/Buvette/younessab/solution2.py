@@ -5,7 +5,7 @@ while t > 0:
     items={}
     for _ in range(n):
         a,b=[i for i in input().strip().split()]
-        items[a]=int(b)
+        items[a]=float(b)
     ans=0
     for _ in range(m):
         a,b = [i for i in input().strip().split()]
