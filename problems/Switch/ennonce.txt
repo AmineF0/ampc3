@@ -1,26 +1,35 @@
-# -im access to all the datashows, so that he can attend all classes.
+# Switch
 
-To do that they need to connect the YounessGPT server with all the datashows using wires. The problem faced is that the GPT server
-two outputs ports, and the number of datashows is big. The technical team in ENSAM got their hands on a very special Switch that play the role of a diffuser.
+YounessGPT is very curious and wants to learn engineering. The school decided to give him access to all the projector, so that he can attend all classes.
+
+To do that they need to connect the YounessGPT server with all the projector using wires. The problem faced is that the GPT server
+two outputs ports, and the number of projector is big. The technical team in ENSAM got their hands on a very special Switch that play the role of a diffuser.
 But this switcher has one flaw, it only has one input and 2 outputs, so we will have to use more than one switch. One can determine the optimal number of switchers
-to connect the AI with datashows, but that's a problem for the technical team.
+to connect the AI with projector, but that's a problem for the technical team. 
 
-After they solved the issue and connected the system, they had one issue, the AI was not connected to all the datashows.
-So they needed your help to determine which switch is damaged. To do that they gave you the schema used in the configuretion.
+The technical team proved the needed exactly nbrPojrctor -2 switches. 
+thus the number of connections is 2 * (nbr switches + 1)
 
-It is guaranteed that only one component (either the AI or the switches) is broken, the datashows work fine. 
-The AI is the root of the system, it can be faulty too, if the AI is faulty , you should print : "AGI is a myth"
+After they solved the issue and connected the system using the optimal number of switches and no unecessary switches were used, 
+they had one issue, the AI was not connected to all the projector.
+So they needed your help to determine which switch is damaged. To do that they gave you the schema used in the configuration.
+
+It is guaranteed that only one component (either the AI or the switches) is broken, the projector work fine. 
+The AI is the root of the system, it can be faulty too, if the AI is faulty , you should print : "AGI is a myth".
 
 \input 
-The first line contains a 3 numbers, n, m, k.
-n: the number of the datashows, in the rest of the problemthe datashows will be indexed from 0 to n-1
-m: the number of switches, in the rest of the problem they will be indexed from 0 to m-1
-k: the number of connections in the system.
+The first line contains a single number n, the number of projectors.
 
-Followed by k lines, each line contains a letter li, a number ui, a letter lj, a number uk. The letter indicated the type of the componenet:
-it can be A: the AI, S: a switch, D: a datashow. it means that the component indexed ui of the type li is connected as an input to the indexed uj component of type lj.
+Followed by a line for each connection, each line contains a letter li, a number ui, a letter lj, a number uk. The letter indicated the type of the componenet:
+it can be A: the AI, S: a switch, D: a projector. it means that the component indexed ui of the type li is connected as an input to the indexed uj component of type lj.
 
-The last line contains a list of datashows that are not accessible.
+Followed by a number k denoting the number of projectors that are not accessible.
+The next line contains the id of those projectors.
+
+\note
+The id of the switches in the problem will be indexed from 0 to m-1, such that m is the count of switches.
+The id of the projectors in the problem will be indexed from 0 to n-1, such that n is the count of the projectors.
+
 
 \output
 if the AI is faulty print "AGI is myth". if the problem is in the switch, output its index in its category.

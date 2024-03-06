@@ -1,3 +1,6 @@
 ./problems/Distopia/input/*
 problems/Distopia/input/
 problems/*/input/
+
+# all files in the input directory
+./problems/*/input/*
