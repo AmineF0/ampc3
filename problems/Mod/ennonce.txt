@@ -1,0 +1,20 @@
+AGI
+
+YounessGPT is evolving rapidly, and he's trying to test how smart his users are. So he generated a task for you to solve. 
+The task is straightforward: you are given an array of numbers a[] of size n and q operations. An operation can be one of the following:
+1. Print the sum of the range l...r.
+2. Set the value of a[k] to x.
+3. Set the value of a[k] to a[k]%mod, such that k is between l and r.
+
+Can you solve YounessGPT's problem?
+
+Input:
+The first line contains two integers n and q (1 <= n, q <= 10^5). The second line contains n integers, 
+separated by space, with each integer a[i] (1 <= a[i] <= 10^9) representing the initial values of the array.
+Each of the next q lines begins with an integer type. Type can be {1, 2, 3}:
+- If type = 1, there will be two more integers on the same line, l and r (1 <= l <= r <= n), which correspond to operation 1.
+- If type = 2, there will be two more integers on the same line, k and x (1 <= k <= n, 1 <= x <= 10^9), which correspond to operation 2.
+- If type = 3, there will be three more integers on the same line, l, r, and mod (1 <= l <= r <= n, 1 <= mod <= 10^9), which correspond to operation 3.
+
+Output:
+For each operation of type 1, print the answer to YounessGPT's problem.
