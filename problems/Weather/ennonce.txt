@@ -3,10 +3,10 @@
 Meknes has a very weird weither, it can at moment be sunny to become stormy.
 
 YounessGPT found an as weird formula to predict the weather:
-Quality    = ()%mod
-Pollution  = ()%mod
-Randomness = ()%mod
-
+Quality    = ( 6x-5y+z+5 ) %mod
+Pollution  = ( x+y-7 )     %mod
+Randomness = ( z-1+x )     %mod
+such that mod = 10**9 + 7
 apocalyse bla bla
 
 given the the paramters of january of the current year (2024)
