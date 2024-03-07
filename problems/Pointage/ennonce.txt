@@ -6,23 +6,6 @@ ENSAM meknes use a system of "pointage" to track students attendence, and someho
 - students information : a list of the codes and names of the students, one student by line. It must be noted that the code is unique for each student.
 - pointage history : a list of tables, where each table contains the code of students who attended.
 
-Example:
-Student information
-code   name
-P12323 jalal
-M45644 asmae
-P58432 amine
-
-History
-session 1 : 3 students
-3 P12323 M45644 P58432
-
-session 2 : 2 students
-2 P58432 M45644
-
-session 3 : 0 students
-0
-
 YounessGPT asked for your help to know the students that attended the most sessions. in case of a tie, print all of them one by line in an increasing order.
 
 \input
