@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/Amine/Desktop/ampc3/problems/Buvette/sol_amine",
-      "program": "c:/Users/Amine/Desktop/ampc3/problems/Buvette/sol_amine/build/Debug/outDebug",
+      "cwd": "c:/Users/Amine/Desktop/ampc3/problems/Switch",
+      "program": "c:/Users/Amine/Desktop/ampc3/problems/Switch/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

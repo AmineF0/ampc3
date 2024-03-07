@@ -1,3 +1,0 @@
-# Regression linear
-
-given an x return the y after doing linear regression

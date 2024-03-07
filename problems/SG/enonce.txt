@@ -1,0 +1,12 @@
+Given a promotion of n people, we want to split them to k TP Sous groupes.
+
+TP rules:
+the tp contains m machines.
+e encadrants.
+each student must be in a machine.
+each machine must be operated by an encadrant.
+each machine has its own maximum capacity of students.
+each encadrant has its own maximum capacity of students.
+each encadrant i can operate a defined set of machine with a maximum capacity cij for each machine j.
+
+give the miminum numbers of sous groups possible.
