@@ -1,0 +1,13 @@
+# Weeeeeeeeeeeeeeeeee...
+
+Meknes has a very weird weither, it can at moment be sunny to become stormy.
+
+YounessGPT found an as weird formula to predict the weather:
+Quality    = ()%mod
+Pollution  = ()%mod
+Randomness = ()%mod
+
+apocalyse bla bla
+
+given the the paramters of january of the current year (2024)
+find the quality of the weather in january after n years
