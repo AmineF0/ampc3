@@ -2,12 +2,15 @@
 
 Meknes has a very weird weither, it can at moment be sunny to become stormy.
 
-YounessGPT found an as weird formula to predict the weather:
-Quality    = ( 6x-5y+z+5 ) %mod
-Pollution  = ( x+y-7 )     %mod
-Randomness = ( z-1+x )     %mod
+YounessGPT found an as weird formula to predict the weather for the next month:
+Quality    = ( 6x+5y+z+5 ) %mod
+Pollution  = ( x+y+7 )     %mod
+Randomness = ( z+1+x )     %mod
 such that mod = 10**9 + 7
 apocalyse bla bla
 
 given the the paramters of january of the current year (2024)
 find the quality of the weather in january after n years
+
+t
+a0 a1 a2 t

@@ -13,7 +13,8 @@ The AI gets a series of input as words, that are being used to learn. In the lea
 
 In the exploitation phase, the AI is given q queries. It is given the start of the word and the AI is supposed to complete it from the words it learned.
 
-YounessGPT tries to predict correctly the word given from the prefix, so it completes the prefix with the most frequent word in the data used for learning. in case of a tie , it output the smallest one lexicographically.
+YounessGPT tries to predict correctly the word given from the prefix, so it completes the prefix with the most frequent word in the data used for learning. 
+In case of a tie , it output the smallest one lexicographically.
 
 \input
 The first line contains t the number of test cases

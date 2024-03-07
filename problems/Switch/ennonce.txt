@@ -10,7 +10,7 @@ to connect the AI with projector, but that's a problem for the technical team.
 The technical team proved the needed exactly nbrPojrctor -2 switches. 
 thus the number of connections is 2 * (nbr switches + 1)
 
-After they solved the issue and connected the system using the optimal number of switches and no unecessary switches were used, 
+After they solved the issue and connected the system using the optimal number of switches and no unnecessary switches were used, 
 they had one issue, the AI was not connected to all the projector.
 So they needed your help to determine which switch is damaged. To do that they gave you the schema used in the configuration.
 
@@ -21,7 +21,7 @@ The AI is the root of the system, it can be faulty too, if the AI is faulty , yo
 The first line contains a single number n, the number of projectors.
 
 Followed by a line for each connection, each line contains a letter li, a number ui, a letter lj, a number uk. The letter indicated the type of the componenet:
-it can be A: the AI, S: a switch, D: a projector. it means that the component indexed ui of the type li is connected as an input to the indexed uj component of type lj.
+it can be a: the AI, s: a switch, p: a projector. it means that the component indexed ui of the type li is connected to the indexed uj component of type lj.
 
 Followed by a number k denoting the number of projectors that are not accessible.
 The next line contains the id of those projectors.
@@ -30,6 +30,6 @@ The next line contains the id of those projectors.
 The id of the switches in the problem will be indexed from 0 to m-1, such that m is the count of switches.
 The id of the projectors in the problem will be indexed from 0 to n-1, such that n is the count of the projectors.
 
-
 \output
 if the AI is faulty print "AGI is myth". if the problem is in the switch, output its index in its category.
+
