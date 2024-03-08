@@ -1,16 +1,35 @@
 # Weeeeeeeeeeeeeeeeee...
 
-Meknes has a very weird weither, it can at moment be sunny to become stormy.
+Meknes has a very weird weither, it can at moment be sunny to become stormy. 
 
-YounessGPT found an as weird formula to predict the weather for the next month:
-Quality    = ( 6x+5y+z+5 ) %mod
-Pollution  = ( x+y+7 )     %mod
-Randomness = ( z+1+x )     %mod
+It is making all the citizens confused about what to wear, and no weather prediction seems
+to be very accurate.
+
+Some might even speculate that the effect of pollution on weather has became very impactful 
+and made the situation even worse. 
+
+That was untill YounessGPT put his mind into it. After some calculations nobody understands other than him,
+he found 3 new paramters he uses to describe the weather : Quality, Pollution, Randomness. Even more his new parameters
+can see the effect of climate change for a long periode of time.
+His predictions were very accurate and he showed them to you. You were amazed by it, 
+and wanted to see what meknes will feel like after years, more importantly how much time we still have left before the climate change becomes
+catastrophical. 
+
+
+The werid formula YounessGPT gave you goes as follows, it allows you to predict the weather for the next month:
+Quality( month i)    = ( 6*Quality( month i-1)+5Pollution( month i-1)+Randomness( month i-1)+5 ) %mod
+Pollution( month i)  = ( Quality( month i-1)+Pollution( month i -1 )+7 )     %mod
+Randomness( month i) = ( Quality( month i-1)+Randomness( month i-1)+1 )     %mod
 such that mod = 10**9 + 7
-apocalyse bla bla
 
-given the the paramters of january of the current year (2024)
+
+
+So given the the paramters of january of the current year (2024)
 find the quality of the weather in january after n years
 
-t
-a0 a1 a2 t
+\input 
+The first line contains t <= 100 : the number of test cases
+Followed by t lines: each contains the Quality , Pollution, Randomness <= 1e9 for january of this year, and n <=1e9 , the number of years .
+
+\output
+Print the Quality of weather of january after n years.
