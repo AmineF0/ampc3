@@ -1,6 +1,7 @@
 # Distopia
 
-YounessGPT has evolved to become an AGI, it has now the ability to create mini AIs. The school asked him to create lot of AI agents that will manage different aspects of the school.
+YounessGPT has evolved to become an AGI, it has now the ability to create mini AIs. 
+The school asked him to create lot of AI agents that will manage different aspects of the school.
 
 The AI was very successful, and YounessGPT became the master of this new AI population living in the school's network. 
 
@@ -10,9 +11,17 @@ It was a huge security threat, and the security managers asked for your help sin
 
 The security manager exported from the network a series of integer numbers, and gave them to you.
 
-You remeber that YounessGPT was very impressed by an encryption algorithm.
+You remember that YounessGPT was very impressed by an encryption algorithm.
 
 The algorithm goes as follows:
-  Encrypt : -
+  Encrypt : given a number , you should represent it in binary form , and then generate n numbers that they can be decrypted correctly
   Decrypt : given a series of numbers represented in the binary form (ex: 10111 1110 11001), the decrypted message is a number where the binary represented number where the 
   ith bit is the most common between the ith bits of the given numbers, in case of a tie it is a 1.
+
+\input
+the first line contains t <=1e2 : the number of test cases.
+The test case ti starts with a line containing a number n <= 1e5 denoting the count of numbers that form the series.
+The next line contains those n numbers to decrypt such that 0 <= a_i <= 2**31
+
+\output
+Print a single integer, the decrypted messages.
