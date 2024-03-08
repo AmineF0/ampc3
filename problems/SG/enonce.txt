@@ -1,12 +1,28 @@
-Given a promotion of n people, we want to split them to k TP Sous groupes.
+# Groups
 
-TP rules:
-the tp contains m machines.
-e encadrants.
-each student must be in a machine.
-each machine must be operated by an encadrant.
-each machine has its own maximum capacity of students.
-each encadrant has its own maximum capacity of students.
-each encadrant i can operate a defined set of machine with a maximum capacity cij for each machine j.
+There is no arts&Metiers without machining and indutrial labs and practices. However due to the limitations
+of hardware, and tools and human power, the school can't fit everywhere in the schoolyear in a single big practice session.
+Each practice session is costly therefore the number of sessions should be minimal, and we should split people to the minimum number
+of groupes possible. 
 
+This is an extremely hard task, since the lab contains m machines, each one can be used by p_i people each session. The machines should
+be operated with the supervision of a qualified teacher for the machine, who can't supervise more than S_i student each session.
+
+It must be noted that each session, the students are tasked to use one and only machine while being guided by one and only one supervisor.
+It is also worth mentioning that student can use only a machine and has a supervisor in all the practice session and can't give it to 
+someone to replace him.
+The supervisor can be affected to people from different machines he is qualified to use.
+
+Given the complexity of YounessGPT, he proposed to solve them this problem with your help.
+
+\input
+The first line has 3 number, 0 <= n <= 1e10 : the number of students, 0 <= m <= 500 the number of machines, 0 <= s <= 500 : the number of supervisors
+The following line contains m number 0 <= p_i <= 100 denoting how many people can use the machine i in a session
+Then s number follows in a new line 0 <= s_i <= 100 denoting how many person can the supervisor supervise.
+Followed by s lines : each line i starts with a number t denoting the number of machine the ith supervisor can use, followed by the index of those t machines.
+
+Note :
+All the indexings starts with 0.
+
+\output
 give the miminum numbers of sous groups possible.
