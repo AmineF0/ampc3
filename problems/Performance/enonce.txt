@@ -1,0 +1,17 @@
+Transfer Learning
+YounessGPT wants to learn and get closer to being the first AGI. So, to do that, he tried to use transfer 
+learning technique. Transfer learning is a technique used in Machine Learning where a model trained on one 
+task is reused or adapted for another related task. In transfer learning, the knowledge gained from solving one 
+problem is leveraged to solve a different but related problem. To do that, he wants to collect the maximum possible 
+information about different problems. So, he asked the headmaster of ENSEM to give him the marks of the first 2 students 
+in ENSEM. But he got confused about who he will choose to help him. As his best friend, he asked you to help him decide that. 
+You are given 2 lists that represent the marks of the 1st and 2nd student respectively. Your task is to print 0 if the average marks 
+of the first student are bigger than the 2nd one, 1 if the 2nd student got more, or -1 otherwise.
+
+Input:
+t: the number of test cases
+n: the length of the arrays
+The next 2 lines contain a and b, the marks of the 1st and 2nd student respectively.
+
+Output:
+The answer to YounessGPT's problem.
